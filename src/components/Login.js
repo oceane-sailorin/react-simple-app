@@ -14,7 +14,7 @@ import { IKUICore } from "@indykiteone/jarvis-sdk-web";
   );
 
   useEffect(() => {
-    IKUICore.renderLogin({
+    IKUICore.render({
       renderElementSelector: ".login-container",
       onSuccessLogin: onSuccess,
       redirectUri: "/callback",

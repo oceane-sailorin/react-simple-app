@@ -15,7 +15,7 @@ const Registration = ({ setToken }) => {
   );
 
   useEffect(() => {
-    IKUICore.renderRegister({
+    IKUICore.render({
       renderElementSelector: ".register-container",
       onSuccessRegistration: onSuccess,
       redirectUri: "/callback",
